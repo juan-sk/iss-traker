@@ -1,0 +1,16 @@
+{
+  "name": "iss-tracker",
+  "version": "1.0.0",
+  "description": "este programa guarda en un archivo csv la data de la latitud y longitud de la estacion espacial internacional",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}
